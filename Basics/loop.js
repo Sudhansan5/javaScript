@@ -5,6 +5,7 @@ for (let i = 0; i < arr.length; i++) {
     // console.log(element);
 }
 
+
 // for each
 // console.log("for each");
 arr.forEach(element => {
@@ -24,5 +25,14 @@ map.set(1,"apple")
 map.set(2,"banana")
 
 for (const [key,value] of map) {
-    console.log(key, ': ', value)
+    // console.log(key, ': ', value)
+}
+
+const myObj = {
+    "1": "apple",
+    "2": "banana"
+}
+
+for (const key in myObj) {
+console.log(key, ": ", myObj[key]);
 }
